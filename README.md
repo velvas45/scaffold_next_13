@@ -24,7 +24,7 @@ Scaffolding next js version 13.4 using tailwind css, typescript, react-query, @l
 
 ## Tech Stack
 
-**Client:** React, TailwindCSS, Typescript, React-Query, @legendapp/state, Axios, @headlessui/react, Formik.
+**Client:** React Js, Next Js, TailwindCSS, Typescript, React-Query, @legendapp/state, Axios, @headlessui/react, Formik.
 
 ## Installation
 
