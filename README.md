@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Scaffold Next 13 Frontend Project
 
-## Getting Started
+Scaffolding next js version 13.4 using tailwind css, typescript, react-query, @legendapp/state (state management), @headlessui/react, Formik.
 
-First, run the development server:
+## Build With
+
+[![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/learn)
+
+[![React Query](https://img.shields.io/badge/React%20Query-FF4154.svg?style=for-the-badge&logo=React-Query&logoColor=white)](https://tanstack.com/)
+
+[![Tailwind css](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)](https://tailwindcss.com/)
+
+[![Typescript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)](https://www.typescriptlang.org/)
+
+[![Headless ui](https://img.shields.io/badge/Headless%20UI-66E3FF.svg?style=for-the-badge&logo=Headless-UI&logoColor=black)](https://headlessui.com/)
+
+[![Axios](https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge&logo=Axios&logoColor=white)](https://axios-http.com/docs/intro)
+
+[Formik](https://formik.org/)
+
+[@legendapp/state](https://legendapp.com/open-source/state/)
+
+## Tech Stack
+
+**Client:** React, TailwindCSS, Typescript, React-Query, @legendapp/state, Axios, @headlessui/react, Formik.
+
+## Installation
+
+Install scaffold_next with npm
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  npm install scaffold_next
+  cd scaffold_next
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install scaffold_next with yarn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  yarn scaffold_next
+  cd scaffold_next
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install scaffold_next with pnpm
 
-## Learn More
+```bash
+  pnpm install scaffold_next
+  cd scaffold_next
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Run Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clone the project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+  git clone https://link-to-project
+```
 
-## Deploy on Vercel
+Go to the project directory
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+  cd scaffold_next
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
