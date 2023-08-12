@@ -54,7 +54,7 @@ Install scaffold_next with pnpm
 Clone the project
 
 ```bash
-  git clone https://github.com/velvas45/scaffold_next_13.git
+  git clone https://github.com/velvas45/scaffold_next_13.git scaffold_next
 ```
 
 Go to the project directory
